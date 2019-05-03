@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Revista.h
+string
+-
+Volumen.h
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Volumen.h
+
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Volumen.h
+string
+-
+
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/main.cpp
+iostream
+-
+Revista.h
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Revista.h
+

@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Biblioteca.h
+Volumen.h
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Volumen.h
+Revista.h
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Revista.h
+vector
+-
+
 /Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Revista.h
 string
 -
@@ -15,10 +23,16 @@ Volumen.h
 /Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Volumen.h
 string
 -
+vector
+-
 
 /Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/main.cpp
 iostream
 -
 Revista.h
 /Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Revista.h
+Biblioteca.h
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Biblioteca.h
+Volumen.h
+/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Volumen.h
 

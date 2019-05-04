@@ -1,5 +1,6 @@
-//
-// Created by Angel Motta on 2019-05-03.
-//
-
 #include "Revista.h"
+#include <iostream>
+
+void Revista::mostrar(int x) {
+    std::cout << "Metodo Clase Hija: Clase Revista" << std::endl;
+}

@@ -8,6 +8,8 @@ class Revista: public Volumen{
     int idRevista;
 public:
     Revista(int _idVol, std::string _titulo, int _idRevista): Volumen{_idVol, _titulo}, idRevista{_idRevista} {}
+    ~Revista();
+    void mostrar(int x);
 };
 
 

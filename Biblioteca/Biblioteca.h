@@ -2,6 +2,7 @@
 #define BIBLIOTECA_BIBLIOTECA_H
 
 #include "Volumen.h"
+#include "Revista.h"
 #include <vector>
 
 class Biblioteca {
@@ -10,10 +11,12 @@ public:
     int maxRevistas;
     int numLibros;
     int numRevistas;
-    Biblioteca(){};
-    Biblioteca(int _numLibros, int numRevistas, int _maxLibros, int _maxRevistas);
     std::vector<Volumen*> vector_vols;
-    void incluir(Volumen* entrada);
+
+    Biblioteca(){};
+    Biblioteca(int _numLibros, int _numRevistas, int _maxLibros, int _maxRevistas);
+    ~Biblioteca();
+    void incluir(Volumen* puntero_vol);
 };
 
 

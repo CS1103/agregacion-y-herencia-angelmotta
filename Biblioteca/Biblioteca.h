@@ -17,6 +17,7 @@ public:
     Biblioteca(int _numLibros, int _numRevistas, int _maxLibros, int _maxRevistas);
     ~Biblioteca();
     void incluir(Volumen* puntero_vol);
+    void mostrarBiblioteca();
 };
 
 

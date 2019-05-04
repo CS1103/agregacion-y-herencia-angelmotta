@@ -10,7 +10,7 @@ protected:
 public:
     Volumen(){}
     Volumen(int _idVol, std::string _titulo);
-    virtual void mostrar(std::vector<Volumen*> &vector_vols);
+    virtual void mostrar();
 };
 
 

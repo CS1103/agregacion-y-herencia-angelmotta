@@ -13,10 +13,18 @@ void Biblioteca::incluir(Volumen* puntero_vol){
     vector_vols.push_back(puntero_vol);
 }
 
+
+void Biblioteca::mostrarBiblioteca() {
+    std::vector<Volumen *>::iterator ptr;
+    for (ptr = vector_vols.begin(); ptr < vector_vols.end(); ptr++) {
+        (*ptr)->mostrar();
+        //std::cout << "value x: " << ptr->x << ", value y: " << ptr->y << ", carga: " << ptr->q << std::endl;
+    }
+}
+
 Biblioteca::~Biblioteca() {
     std::vector<Volumen *>::iterator ptr;
     for (ptr = vector_vols.begin(); ptr < vector_vols.end(); ptr++) {
-        //std::cout << "value x: " << ptr->x << ", value y: " << ptr->y << ", carga: " << ptr->q << std::endl;
         delete *ptr;
     }
 }

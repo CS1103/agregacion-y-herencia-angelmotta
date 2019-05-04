@@ -1,13 +1,15 @@
-//
-// Created by Angel Motta on 2019-05-03.
-//
-
 #ifndef BIBLIOTECA_LIBRO_H
 #define BIBLIOTECA_LIBRO_H
 
 
-class Libro {
+#include "Volumen.h"
 
+class Libro: public Volumen {
+    int idLibro;
+public:
+    Libro(int _idVol, std::string _titulo, int _idLibro): Volumen{_idVol, _titulo}, idLibro{_idLibro} {}
+    ~Libro();
+    void mostrar();
 };
 
 

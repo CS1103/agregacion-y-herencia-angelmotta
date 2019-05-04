@@ -7,11 +7,7 @@ Volumen::Volumen(int _idVol, std::string _titulo) {
     titulo = _titulo;
 };
 
-void Volumen::mostrar(std::vector<Volumen*> &vector_vols){
+void Volumen::mostrar(){
     std::cout << "Metodo Clase Padre: Clase Volumen" << std::endl;
-    std::vector<Volumen *>::iterator ptr;
-    for (ptr = vector_vols.begin(); ptr < vector_vols.end(); ptr++) {
-        std::cout << "VOLUMEN: " << (*ptr)->titulo << std::endl;
-    }
     std::cout << std::endl;
 }

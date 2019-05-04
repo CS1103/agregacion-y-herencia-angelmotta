@@ -150,6 +150,33 @@ Biblioteca.cpp.s:
 	$(MAKE) -f CMakeFiles/Biblioteca.dir/build.make CMakeFiles/Biblioteca.dir/Biblioteca.cpp.s
 .PHONY : Biblioteca.cpp.s
 
+Biblioteca_test.o: Biblioteca_test.cpp.o
+
+.PHONY : Biblioteca_test.o
+
+# target to build an object file
+Biblioteca_test.cpp.o:
+	$(MAKE) -f CMakeFiles/Biblioteca.dir/build.make CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.o
+.PHONY : Biblioteca_test.cpp.o
+
+Biblioteca_test.i: Biblioteca_test.cpp.i
+
+.PHONY : Biblioteca_test.i
+
+# target to preprocess a source file
+Biblioteca_test.cpp.i:
+	$(MAKE) -f CMakeFiles/Biblioteca.dir/build.make CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.i
+.PHONY : Biblioteca_test.cpp.i
+
+Biblioteca_test.s: Biblioteca_test.cpp.s
+
+.PHONY : Biblioteca_test.s
+
+# target to generate assembly for a file
+Biblioteca_test.cpp.s:
+	$(MAKE) -f CMakeFiles/Biblioteca.dir/build.make CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.s
+.PHONY : Biblioteca_test.cpp.s
+
 Libro.o: Libro.cpp.o
 
 .PHONY : Libro.o
@@ -270,6 +297,9 @@ help:
 	@echo "... Biblioteca.o"
 	@echo "... Biblioteca.i"
 	@echo "... Biblioteca.s"
+	@echo "... Biblioteca_test.o"
+	@echo "... Biblioteca_test.i"
+	@echo "... Biblioteca_test.s"
 	@echo "... Libro.o"
 	@echo "... Libro.i"
 	@echo "... Libro.s"

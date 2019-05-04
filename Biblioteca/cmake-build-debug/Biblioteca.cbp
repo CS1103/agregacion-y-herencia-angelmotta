@@ -86,6 +86,9 @@
 		<Unit filename="/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Biblioteca.h">
 			<Option target="Biblioteca"/>
 		</Unit>
+		<Unit filename="/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Biblioteca_test.cpp">
+			<Option target="Biblioteca"/>
+		</Unit>
 		<Unit filename="/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Libro.cpp">
 			<Option target="Biblioteca"/>
 		</Unit>

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Biblioteca.dir/Volumen.cpp.o"
   "CMakeFiles/Biblioteca.dir/Libro.cpp.o"
   "CMakeFiles/Biblioteca.dir/Revista.cpp.o"
+  "CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.o"
   "Biblioteca.pdb"
   "Biblioteca"
 )

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Biblioteca.cpp" "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/cmake-build-debug/CMakeFiles/Biblioteca.dir/Biblioteca.cpp.o"
+  "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Biblioteca_test.cpp" "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/cmake-build-debug/CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.o"
   "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Libro.cpp" "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/cmake-build-debug/CMakeFiles/Biblioteca.dir/Libro.cpp.o"
   "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Revista.cpp" "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/cmake-build-debug/CMakeFiles/Biblioteca.dir/Revista.cpp.o"
   "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/Volumen.cpp" "/Users/angelinux/CLionProjects/agregacion-y-herencia-angelmotta/Biblioteca/cmake-build-debug/CMakeFiles/Biblioteca.dir/Volumen.cpp.o"

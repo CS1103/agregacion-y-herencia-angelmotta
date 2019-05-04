@@ -11,6 +11,16 @@ Biblioteca::Biblioteca(int _numLibros, int _numRevistas, int _maxLibros, int _ma
 
 void Biblioteca::incluir(Volumen* puntero_vol){
     vector_vols.push_back(puntero_vol);
+
+    auto pointer_cast = dynamic_cast<Revista*>(puntero_vol);
+    if(pointer_cast != nullptr){
+        //std::cout << "Es puntero tipo Revista" << std::endl;
+        numRevistas += 1;
+    }
+    else{
+        //std::cout << "Es puntero tipo Libro" << std::endl;
+        numLibros += 1;
+    }
 }
 
 

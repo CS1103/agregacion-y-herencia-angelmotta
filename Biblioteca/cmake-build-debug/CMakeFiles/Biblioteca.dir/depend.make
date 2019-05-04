@@ -6,6 +6,12 @@ CMakeFiles/Biblioteca.dir/Biblioteca.cpp.o: ../Biblioteca.h
 CMakeFiles/Biblioteca.dir/Biblioteca.cpp.o: ../Revista.h
 CMakeFiles/Biblioteca.dir/Biblioteca.cpp.o: ../Volumen.h
 
+CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.o: ../Biblioteca.h
+CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.o: ../Biblioteca_test.cpp
+CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.o: ../Revista.h
+CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.o: ../Volumen.h
+CMakeFiles/Biblioteca.dir/Biblioteca_test.cpp.o: ../catch.hpp
+
 CMakeFiles/Biblioteca.dir/Libro.cpp.o: ../Libro.cpp
 CMakeFiles/Biblioteca.dir/Libro.cpp.o: ../Libro.h
 CMakeFiles/Biblioteca.dir/Libro.cpp.o: ../Volumen.h
@@ -23,5 +29,6 @@ CMakeFiles/Biblioteca.dir/main.cpp.o: ../Biblioteca.h
 CMakeFiles/Biblioteca.dir/main.cpp.o: ../Libro.h
 CMakeFiles/Biblioteca.dir/main.cpp.o: ../Revista.h
 CMakeFiles/Biblioteca.dir/main.cpp.o: ../Volumen.h
+CMakeFiles/Biblioteca.dir/main.cpp.o: ../catch.hpp
 CMakeFiles/Biblioteca.dir/main.cpp.o: ../main.cpp
 
